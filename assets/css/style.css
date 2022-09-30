@@ -17,7 +17,6 @@
 
 .show {
   visibility: visible;
-  opacity: 100;
 }
 
 #deck > div {
@@ -54,6 +53,7 @@
   background-color: white;
   border: 1px solid #ff3d3d;
   border-radius: 10px;
+  opacity: 100;
 }
 
 .guessed {
