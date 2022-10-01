@@ -16,6 +16,7 @@ function shuffle(n) {
   }
   return n;
 }
+
 function startTimer() {
   let s = 0,
     m = 0,
