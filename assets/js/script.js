@@ -16,7 +16,6 @@ function shuffle(n) {
   }
   return n;
 }
-
 function startTimer() {
   let s = 0,
     m = 0,
@@ -76,7 +75,7 @@ function displayCards() {
       cardComparison.forEach(function (elemento) {
         elemento.classList.add("guessed", "disabled");
       });
-      arrayComparison = [];
+      cardComparison = [];
     } else {
       icons.forEach(function (item) {
         item.classList.add("disabled");
