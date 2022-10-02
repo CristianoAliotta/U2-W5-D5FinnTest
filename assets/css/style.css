@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  background-color: rgb(91, 91, 91);
+}
+#main {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
 .container {
   width: 600px;
   margin: auto;
@@ -6,6 +15,9 @@
 
 .text-center {
   text-align: center;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  width: 230px;
 }
 
 .icon-grid {
@@ -18,28 +30,39 @@
 .show {
   visibility: visible;
 }
+#deck {
+  width: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blanchedalmond;
+}
 
 #deck > div {
-  margin: 20px 10px;
-  width: 120px;
-  height: 120px;
-  background-color: #aeffab;
-  border: 1px solid #ff3d3d;
-  border-radius: 10px;
+  margin: 7px 5px;
+  width: 40px;
+  height: 60px;
+  background-image: url(https://static8.depositphotos.com/1257959/1064/v/600/depositphotos_10649780-stock-illustration-playing-card-back-side-62x90.jpg);
+  background-size: cover;
+  background-position: -1px;
+  border-radius: 1px;
 }
 
 .timer {
   padding: 10px 0;
+  font-size: 10px;
 }
 
 .icon {
-  font-size: 80px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
   visibility: visible;
   opacity: 0;
   width: 100%;
   height: 100%;
   cursor: pointer;
+  border-radius: 1px;
 }
 
 .disabled {
@@ -51,27 +74,25 @@
   animation-name: rotation-icon;
   animation-duration: 0.5s;
   background-color: white;
-  border: 1px solid #ff3d3d;
-  border-radius: 10px;
+
   opacity: 100;
 }
 
 .guessed {
   animation-name: guessed;
   animation-duration: 0.5s;
-  background-color: #ff3d3d;
-  border: 1px solid #ff3d3d;
-  border-radius: 10px;
+  outline: 3px solid #e0e32d;
+  border-radius: 2px;
 }
 
 .button {
-  color: white;
-  font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
   text-align: center;
   margin-top: 10px;
-  padding: 10px;
-  background-color: #aeffab;
-  border: 1px solid #ff3d3d;
+  padding: 6px;
+  background-color: #000000;
+  border: 1px solid #e0e32d;
   border-radius: 5px;
 }
 

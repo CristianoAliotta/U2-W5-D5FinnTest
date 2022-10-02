@@ -1,8 +1,8 @@
 let interval;
 let modal = document.getElementById("modal");
 let timer = document.querySelector(".timer");
-let cardFind = document.getElementsByClassName("find");
-let deckOfCards = ["🗼", "🗽", "🕌", "🕋", "🌉", "🗿", "🗻", "🏰", "🗼", "🗽", "🕌", "🕋", "🌉", "🗿", "🗻", "🏰"];
+let cardFind = document.getElementsByClassName("guessed");
+let deckOfCards = ["♥", "♡", "♠", "♢", "♣", "♦", "♧", "♤", "♥", "♡", "♠", "♢", "♣", "♦", "♧", "♤"];
 function shuffle(n) {
   let currentCard = n.length;
   let temporaryCard, randomCard;
@@ -74,6 +74,7 @@ function displayCards() {
     if (cardComparison[0].innerHTML === cardComparison[1].innerHTML) {
       cardComparison.forEach(function (elemento) {
         elemento.classList.add("guessed", "disabled");
+        let cardFind = document.getElementsByClassName("guessed");
       });
       cardComparison = [];
     } else {
