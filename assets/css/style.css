@@ -1,6 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 body {
+  font-family: "Fredoka One", cursive;
   margin: 0;
-  background-color: rgb(91, 91, 91);
+  background-color: rgb(0, 0, 0);
+}
+h1 {
+  margin: 0 auto;
+  margin-top: 2vh;
+  color: #000000;
+  background-color: blanchedalmond;
+  font-size: 20px;
+  text-align: center;
+  width: 230px;
+  border-radius: 5px 5px 5px 5px / 6px 6px 0px 0px;
 }
 #main {
   width: 300px;
@@ -18,6 +30,7 @@ body {
   margin: 0 auto;
   background-color: blanchedalmond;
   width: 230px;
+  border-radius: 5px 5px 5px 5px / 0px 0px 6px 6px;
 }
 
 .icon-grid {
@@ -44,7 +57,7 @@ body {
   background-image: url(https://static8.depositphotos.com/1257959/1064/v/600/depositphotos_10649780-stock-illustration-playing-card-back-side-62x90.jpg);
   background-size: cover;
   background-position: -1px;
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 .timer {
@@ -94,6 +107,7 @@ body {
   background-color: #000000;
   border: 1px solid #e0e32d;
   border-radius: 5px;
+  font-family: "Fredoka One", cursive;
 }
 
 .button:hover {
