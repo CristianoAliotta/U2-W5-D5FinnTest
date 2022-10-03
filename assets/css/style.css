@@ -55,7 +55,7 @@ h1 {
 }
 
 #deck > div {
-  margin: 3px 5px;
+  margin: 3vh 2vh;
   width: 150px;
   height: 210px;
   background-image: url(https://static8.depositphotos.com/1257959/1064/v/600/depositphotos_10649780-stock-illustration-playing-card-back-side-62x90.jpg);
@@ -98,7 +98,7 @@ h1 {
 .guessed {
   animation-name: guessed;
   animation-duration: 0.5s;
-  outline: 2px solid #ff3f3f;
+  outline: 4px solid #ff3f3f;
   border-radius: 2px;
 }
 
